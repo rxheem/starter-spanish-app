@@ -3,7 +3,11 @@ import React, { Fragment } from 'react';
 const Navbar = props => {
   return (
     <Fragment>
-      <nav className='navbar' role='navigation' aria-label='main navigation'>
+      <nav
+        className='navbar is-info'
+        role='navigation'
+        aria-label='main navigation'
+      >
         <div className='navbar-brand'>
           <a className='navbar-item' href='/'>
             <img
@@ -45,7 +49,7 @@ const Navbar = props => {
             <a className='navbar-item' href='/contact/'>
               <i
                 className='far fa-address-book'
-                style={{ paddingRight: '7px', color: 'green' }}
+                style={{ paddingRight: '7px', color: 'white' }}
               />
               Contact
             </a>

@@ -10,6 +10,9 @@ import 'bulma/css/bulma.css';
 // Bootstrap essentials
 import 'bootstrap/dist/css/bootstrap-grid.css';
 
+// Main style to override all other
+import './index.css';
+
 // Imports
 import { BrowserRouter as Router } from 'react-router-dom';
 
