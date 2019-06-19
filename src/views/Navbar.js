@@ -29,12 +29,24 @@ const Navbar = props => {
         <div id='navbarBasicExample' class='navbar-menu'>
           <div className='navbar-start'>
             <a className='navbar-item' href='/aim/'>
+              <i
+                className='fas fa-rocket'
+                style={{ paddingRight: '7px', color: 'red' }}
+              />
               Aim
             </a>
             <a className='navbar-item' href='/overview/'>
+              <i
+                className='fas fa-rss'
+                style={{ paddingRight: '7px', color: 'orange' }}
+              />
               Overview
             </a>
             <a className='navbar-item' href='/contact/'>
+              <i
+                className='far fa-address-book'
+                style={{ paddingRight: '7px', color: 'green' }}
+              />
               Contact
             </a>
             <div className='navbar-item has-dropdown is-hoverable'>
